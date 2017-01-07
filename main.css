@@ -79,6 +79,103 @@ body{
 	border-color: #000;
 	border-width: 0.5px;
 }
+
+
+
+.content-div-0-effect-profile{
+	display: block;
+}
+.content-div-0-effect{
+	display: none;
+	height: 520px;
+}
+.thumbnail-profile{
+	width: 100%;
+	margin-right: 3%;
+}
+.profile{
+	width: 100%;
+	height: 100%;
+}
+.profile-img-button{
+	width: 100%;
+}
+.profile-img-button-change-img{
+	margin-top: 3%;
+	width: 100%;
+}
+.thumbnail-effect{
+	width: 300%;
+	height: 307px;
+	margin-left: 100px;
+	padding-left: 11%;
+	padding-right: 5%;
+}
+.div-info-profile{
+	margin-right: 3%;
+	margin-bottom: 2%;
+	float: left;
+}
+.change-info-profile-button{
+	width: 97%;
+}
+.img-div-bi-effect{
+	width: 30%;
+	height: 190px;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+
+
+
+.content-div-0-effect-company{
+	display: none;
+	height: 520px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 540px){
 .content-div-0{
 	width: 100%;

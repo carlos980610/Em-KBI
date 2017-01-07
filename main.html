@@ -6,6 +6,8 @@
 	   <link rel="stylesheet" type="text/css" href="boot/css/bootstrap.css">
      <link rel="stylesheet" type="text/css" href="main.css">
   	 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+     <script src="http://code.jquery.com\jquery-1.11.3.min.js"></script>
+     <script src="main.js"></script>
 </head>
 <body>
   <div>
@@ -47,7 +49,7 @@
               Conozca información de su local y puntos de venta.
             </p>
             <p>
-              <a href="#" class="btn btn-primary">Ver locales</a>
+              <a class="btn btn-primary">Ver locales</a>
             </p>
           </div>
         </div>
@@ -61,7 +63,7 @@
               Cree informes personalizados con diferentes elementos.
             </p>
             <p>
-              <a href="#" class="btn btn-primary">Generar informes</a>
+              <a class="btn btn-primary">Generar informes</a>
             </p>
           </div>
         </div>
@@ -84,7 +86,7 @@
               Encuentre información sobre su objetivo comercial.
             </p>
             <p>
-              <a href="#" class="btn btn-primary">Ver datos</a>
+              <a class="btn btn-primary">Ver datos</a>
             </p>
           </div>
         </div>
@@ -98,7 +100,7 @@
               Con ayuda de nuestro asistente cree estrategias de ventas.
             </p>
             <p>
-              <a href="#" class="btn btn-primary">Crear estrategias</a>
+              <a class="btn btn-primary">Crear estrategias</a>
             </p>
           </div>
         </div>
@@ -109,7 +111,12 @@
     </div>
   </div>
 
-  <div class="content-div-0">
+
+
+
+
+
+  <div class="content-div-0 content-div-0-effect-profile">
     <div class="content-div-a">
       <h2>Mi perfil</h2>
       <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
@@ -121,7 +128,7 @@
               Acá esta tu perfil personal.
             </p>
             <p>
-              <a href="#" class="btn btn-primary">Perfil personal</a>
+              <a onclick="seePersonalProfile()" class="btn btn-primary personal-profile">Perfil personal</a>
             </p>
           </div>
         </div>
@@ -135,7 +142,7 @@
               Acá esta tu perfil de empresa.
             </p>
             <p>
-              <a href="#" class="btn btn-primary">Perfil de empresa</a>
+              <a onclick="seeComapanyProfile()" class="btn btn-primary">Perfil de empresa</a>
             </p>
           </div>
         </div>
@@ -145,6 +152,165 @@
       <img class="img-div-bi" src="http://www.datapine.com/blog/wp-content/uploads/2014/12/Business-Intelligence-Buzzwords-panda.jpg">
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+  <div class="content-div-0 content-div-0-effect">
+    <div class="content-div-a">
+      <h2>Personal</h2>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="thumbnail thumbnail-profile">
+          <img data-src="#" alt="">
+          <div class="caption">
+            <h3>Imagen</h3>
+            <p>
+              <img class="profile" src="http://www.techxcite.com/topics/15200/thumbnail/Facebook_Profile_BLANK-1024x645.jpg">
+            </p>
+            <p>
+              <a class="btn btn-default profile-img-button">Ver imagen</a>
+              <a class="btn btn-primary profile-img-button profile-img-button-change-img">Cambiar imagen</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="thumbnail thumbnail-effect">
+          <img data-src="#" alt="">
+          <div class="caption">
+            <h3>Información personal</h3>
+            <p>
+              <div class="div-info-profile">
+                <label for="">Nombres</label>
+                <input type="text" id="input" class="form-control" required="required" placeholder="Nombres">
+                <label for="">Apellidos</label>
+                <input type="text" id="input" class="form-control" required="required" placeholder="Apellidos">
+                <label for="">Edad</label>
+                <input type="number" id="input" class="form-control" required="required" placeholder="Edad">
+              </div>
+              <div class="div-info-profile">
+                <label for="">Correo</label>
+                <input type="email" id="input" class="form-control" required="required" placeholder="Correo">
+                <label for="">Telefono</label>
+                <input type="number" id="input" class="form-control" required="required" placeholder="Telefono">
+                <label for="">Celular</label>
+                <input type="number" id="input" class="form-control" required="required" placeholder="Celular">
+              </div>
+              <div class="div-info-profile">
+                <label for="">Pais</label>
+                <input type="email" id="input" class="form-control" required="required" placeholder="Pais">
+                <label for="">Ciudad</label>
+                <input type="email" id="input" class="form-control" required="required" placeholder="Ciudad">
+                <label for="">Genero</label>
+                <select name="" id="input" class="form-control">
+                  <option value="">Mujer</option>
+                  <option value="">Hombre</option>
+                  <option value="">Otro</option>
+                </select>
+              </div>
+            </p>
+            <p>
+              <a onclick="alertPersonalProfileInfo()" class="btn btn-primary change-info-profile-button">Editar información</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="content-div-0 content-div-0-effect-company">
+    <div class="content-div-a">
+      <h2>Empresa</h2>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="thumbnail thumbnail-profile">
+          <img data-src="#" alt="">
+          <div class="caption">
+            <h3>Imagen</h3>
+            <p>
+              <img class="profile" src="http://www.techxcite.com/topics/15200/thumbnail/Facebook_Profile_BLANK-1024x645.jpg">
+            </p>
+            <p>
+              <a class="btn btn-default profile-img-button">Ver imagen</a>
+              <a href="#" class="btn btn-primary profile-img-button profile-img-button-change-img">Cambiar imagen</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="thumbnail thumbnail-effect">
+          <img data-src="#" alt="">
+          <div class="caption">
+            <h3>Información de la empresa</h3>
+            <p>
+              <div class="div-info-profile">
+                <label for="">Nombre</label>
+                <input type="text" id="input" class="form-control" required="required" placeholder="Nombres">
+                <label for="">Lema</label>
+                <input type="text" id="input" class="form-control" required="required" placeholder="Apellidos">
+                <label for="">Tiempo</label>
+                <input type="number" id="input" class="form-control" required="required" placeholder="Edad">
+              </div>
+              <div class="div-info-profile">
+                <label for="">Correo</label>
+                <input type="email" id="input" class="form-control" required="required" placeholder="Correo">
+                <label for="">Telefono</label>
+                <input type="number" id="input" class="form-control" required="required" placeholder="Telefono">
+                <label for="">Celular</label>
+                <input type="number" id="input" class="form-control" required="required" placeholder="Celular">
+              </div>
+              <div class="div-info-profile">
+                <label for="">Pais</label>
+                <input type="email" id="input" class="form-control" required="required" placeholder="Pais">
+                <label for="">Ciudad</label>
+                <input type="email" id="input" class="form-control" required="required" placeholder="Ciudad">
+                <label for="">Locales</label>
+                <select name="" id="input" class="form-control">
+                  <option value="">Virtual</option>
+                  <option value="">Físico</option>
+                  <option value="">Ambos</option>
+                </select>
+              </div>
+            </p>
+            <p>
+              <a onclick="alertPersonalCompanyInfo()" class="btn btn-primary change-info-profile-button">Editar información</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <div class="content-div-1">
     <div class="content-div-a">
@@ -176,13 +342,13 @@
     <div class="content-div-a info_down">
       <ul class="nav navbar-nav">
         <li class="active">
-          <a href="#">Cookies</a>
+          <a>Cookies</a>
         </li>
         <li class="active">
-          <a href="#">Soporte</a>
+          <a>Soporte</a>
         </li>
         <li class="active">
-          <a href="#">Idioma</a>
+          <a>Idioma</a>
         </li>
       </ul>
     </div>
