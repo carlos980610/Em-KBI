@@ -57,20 +57,37 @@ body{
 
 .content-div-0{
 	width: 100%;
-	background-color: #CFCFCF;
-	padding-left: 10%;
-	padding-right: 10%;
+	background-color: #fff;
 	float: left;
 }
+.title-services{
+	margin-bottom: 3%;
+}
 .text-services-description{
-	width: 40%;
-	margin-right: 10%;
-	color: #000;
+	width: 30%;
+	margin-left: 15%;
+	margin-bottom: 3%;
+	margin-right: 3%;
 	float: left;
 	text-align: justify;	
 }
 .buttons-services-description{
-	float: left
+	float: left;
+	margin-right: 1%;
+	width: 100px;
+}
+.text-return-services{
+	float: left;
+}
+.video-bigdata-description{
+	width: 40%;
+	height: 300px; 
+	float: left;
+	margin-right: 1%;
+	margin-bottom: 3%;
+}
+.a{
+	display: none;
 }
 
 
@@ -110,6 +127,51 @@ body{
 	margin-right: 5%;
 	text-align: justify;
 }
+
+
+
+
+
+
+
+
+
+
+.content-div-2{
+	width: 100%;
+	background-image: url(http://www.scale.fund/uploads/8/3/0/1/83019278/big-data_orig.jpg);
+	background-size: 100% 80%;
+	background-repeat: no-repeat;
+	padding-right: 10%;
+	float: left;
+}
+.sub-content-div-2{
+	width: 50%;
+	float: left;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	padding-left: 10%;
+	background-color: #fff;
+	background: linear-gradient(to right, #fff, opacity:;) ;
+}
+.text-analisis-description{
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 5%;
+	float: left;
+	text-align: justify;	
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
