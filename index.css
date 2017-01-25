@@ -59,6 +59,8 @@ body{
 	width: 100%;
 	background-color: #fff;
 	float: left;
+	border-bottom: solid 5px #aaa; 
+
 }
 .title-services{
 	margin-bottom: 3%;
