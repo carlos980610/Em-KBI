@@ -3,6 +3,11 @@ body{
 }
 
 
+
+
+
+
+
 .navbar{
 	background-color: #fff;
 	border-radius: 0px;
@@ -39,13 +44,49 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 .content-div-0{
 	width: 100%;
-	background-color: #fff;
+	background-color: #CFCFCF;
 	padding-left: 10%;
 	padding-right: 10%;
 	float: left;
 }
+.text-services-description{
+	width: 40%;
+	margin-right: 10%;
+	color: #000;
+	float: left;
+	text-align: justify;	
+}
+.buttons-services-description{
+	float: left
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .content-div-1{
 	width: 100%;
@@ -54,7 +95,6 @@ body{
 	padding-right: 10%;
 	float: left;
 }
-
 .col-xs-3{
 	float: left;
 }
@@ -68,6 +108,7 @@ body{
 .text-into-thumbnail{
 	margin-left: 5%;
 	margin-right: 5%;
+	text-align: justify;
 }
 
 
