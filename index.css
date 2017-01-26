@@ -212,6 +212,48 @@ body{
 
 
 
+.from-contact{
+	width: 50%;
+	margin-left: 5%;
+	margin-right: 0%;
+	border: solid 1px #000;
+}
+.form-group{
+	width: 40%;
+	float: left;
+	margin-right: 5%; 
+}
+.button-send-message{
+	width: 100%;
+}
+.btn-send-message{
+	float: initial;
+	width: 85%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.form-group-text-area{
+	width: 85%;
+	float: lef
+}
+.div-contact-information{
+	float: right;
+	border: solid 1px #000;
+}
+.col-xs-3 .thumbnail-contact-information{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
