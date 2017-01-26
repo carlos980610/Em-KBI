@@ -231,9 +231,65 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-div-4{
+	width: 100%;
+	background-image: url(http://www.olmogas.com/wp-content/uploads/2014/06/contacto1.jpg);
+	background-size: 100% 80%;
+	background-repeat: no-repeat;
+	padding-right: 10%;
+	float: left;
+}
+.sub-content-div-4{
+	width: 50%;
+	float: left;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	padding-left: 10%;
+	background-color: #DADADA; 
+	border-bottom: solid 10px #00B413; 
+}
+.div-network{
+	width: 30%;
+	float: right;
+	margin-top: 32%;
+}
+.button-img-contact{
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 5%;
+	float: left;
+}
+.buttons-network{
+	width: 30%;
+}
+
+
+
+
+
+
 .from-contact{
 	width: 50%;
-	margin-left: 5%;
+	margin-left: 10%;
 	margin-right: 0%;
 	padding-left: 0%;
 	float: left;
