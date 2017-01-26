@@ -40,6 +40,39 @@ body{
 
 
 
+
+
+
+
+.go-up {
+	display: none;
+	padding: 8px;
+	background: #fff;
+	font-size: 40px;
+	color: #aaa;
+	cursor: pointer;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .control-button-collapse{
 	background-color: #fff;
 	margin-left: 85%;
