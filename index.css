@@ -13,6 +13,7 @@ body{
 	border-bottom: solid 6px #1471CE; 
 	font-size: 17px;
 	margin-bottom: 0%;
+	height: 60px;
 }
 .navbar li{
 	cursor: pointer;
@@ -26,18 +27,55 @@ body{
 	width: 60px;
 	height: 50px;
 }
-.div-button-user{
-	width: 50px;
-	height: 50px;
-}
-.button-user{
-	border: none;
-	background-color: #fff;
-}
 .glyphicon-user{
 	font-size: 25px;
 	color: #777;
-	margin: 50%;
+	margin-top: 15%;
+	margin-bottom: 0%;
+}
+
+
+
+
+
+
+
+.control-button-collapse{
+	background-color: #fff;
+	margin-left: 85%;
+	width: 10%;
+
+	position: relative;
+	z-index: initial;
+}
+.control-button-collapse a{
+	color: #000;
+}
+
+
+.ul-first{
+	list-style: none;
+	text-decoration: none;
+}
+.ul-first ul{
+	display: none;
+	position: absolute;
+}
+.ul-first ul:hover{
+	border: solid 1px #aaa;
+}
+
+
+.ul-first li:hover > ul{
+	background-color: transparent;
+	display: block;
+	position: relative;
+}
+.ul-second{
+	list-style: none;
+}
+.ul-second li{
+	padding-right: 5%;
 }
 
 
@@ -50,6 +88,23 @@ body{
 
 
 
+
+
+.content-div-slider{
+	z-index: auto;
+}
+
+
+
+
+.div-slider-social-network{
+	width: 0%;
+	float: left;
+}
+.icon-slider-social-network{
+	width: 15px;
+	height: 15px;
+}
 /*
 .slider {
 	width: 100%;
@@ -259,7 +314,7 @@ body{
 	padding-left: 10%;
 }
 .div-network{
-	width: 30%;
+	width: 40%;
 	float: right;
 	margin-top: 32%;
 }
@@ -270,7 +325,8 @@ body{
 	float: left;
 }
 .buttons-network{
-	width: 30%;
+	width: 20%;
+	margin-top: 1%;
 }
 
 
@@ -324,6 +380,16 @@ body{
 	margin-left: 3%;
 	width: 70%;
 	text-align: justify;
+}
+
+
+
+.content-div-6{
+	width: 100%;
+	padding-bottom: 3%;
+	background-color: #bbb;
+	padding-left: 5%;
+	float: left;
 }
 
 
@@ -395,6 +461,114 @@ body{
 
 
 
+.div-about{
+	width: 100%;
+	float: left;
+	background-color: #fff;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: -5%;
+}
+.title-about{
+	margin-bottom: 5%;
+}
+.div-list-about{
+	float: left;
+	width: 25%;
+}
+
+.div-list-about ul{
+	list-style: none;
+	text-decoration: none;
+	color: #323232;
+}
+.div-list-about li{
+	list-style: none;
+	text-decoration: none;
+	font-size: 25px;
+	color: #323232;
+}
+.div-list-about a{
+	list-style: none;
+	text-decoration: none;
+	font-size: 15px;
+	color: #323232;
+}
+
+
+
+
+.div-down-bar-about{
+	width: 100%;
+	height: 1px;
+	float: left;
+	border-top: solid 2px #000;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+
+
+.down-bar-about-items{
+	width: 10%;
+	height: 20px;
+	margin-left: 2%; 
+	margin-top: 2%;
+	float: left;
+}
+.down-bar-about-items li{
+	list-style: none;
+	color: #000;
+}
+.down-bar-about-items a{
+	list-style: none;
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+
+.down-bar-about-idiom{
+	width: 20%;
+	float: left;
+	margin-top: 2%;
+}
+.down-bar-about-idiom li{
+	list-style: none;
+}
+.down-bar-about-select-idiom{
+	float: left;
+	width: 18%;
+	margin-left: -7%;
+	margin-top: 1.5%;
+}
+
+
+
+.img-sponsors{
+	width: 50%;
+	height: 30%;
+	margin: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 540px){
 .content-div-0{
 	width: 100%;
@@ -408,7 +582,7 @@ body{
 	background: #ddd;
 	border-color: #ddd;
 	border-style: solid;
-	border-width: 1px;
+	border-width:1px;
 }
 .content-div-a{
 	width: 90%;
