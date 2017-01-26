@@ -6,9 +6,13 @@ body{
 
 
 
-
-
+.b{
+	display: block;
+	z-index: 3;
+	position: static;
+}
 .navbar{
+	width: 100%;
 	background-color: #fff;
 	border-radius: 0px;
 	border-bottom: solid 6px #1471CE; 
@@ -51,12 +55,7 @@ body{
 
 
 
-
-
-
-
-.content-div-slider{
-}/*
+/*
 .slider {
 	width: 100%;
 	margin: auto;

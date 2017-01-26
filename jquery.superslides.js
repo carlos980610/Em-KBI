@@ -7,7 +7,7 @@ var Superslides, plugin = 'superslides';
 
 Superslides = function(el, options) {
   this.options = $.extend({
-    play: 15000,
+    play: 9000,
     animation_speed: 600,
     animation_easing: 'swing',
     animation: 'slide',
@@ -129,7 +129,7 @@ var css = {
       that.$control.css({
         position: 'relative',
         transform: 'translate3d(0)',
-        height: '100%',
+        height: '91.15%',
         width: that.width * multiplier,
         left: -that.width
       });
