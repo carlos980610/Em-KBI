@@ -288,16 +288,23 @@ body{
 
 .content-div-5{
 	width: 100%;
+	padding-bottom: 3%;
 	background-color: #323232;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 5%;
 	float: left;
-}
+}			
 .content-div-5{
 	color: #fff;
 }
 .div-title-services{
+	float: initial;
+}
+.div-container-services{
 	float: left;
+	width: 28%;
+	margin-right: 5%;
+	padding-right: 5%;
+	padding-right: 0%;
 }
 .div-services{
  	float: left;
@@ -305,7 +312,7 @@ body{
 }
 .div-img-services{
 	float: left;
-	width: 10%
+	width: 20%
 }
 .img-services{
 	width: 100%;
@@ -315,7 +322,8 @@ body{
 .div-text-services{
 	float: left;
 	margin-left: 3%;
-	width: 40%;
+	width: 70%;
+	text-align: justify;
 }
 
 
