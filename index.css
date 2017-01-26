@@ -387,7 +387,7 @@ body{
 .content-div-6{
 	width: 100%;
 	padding-bottom: 3%;
-	background-color: #bbb;
+	background-color: #fff;
 	padding-left: 5%;
 	float: left;
 }
@@ -499,7 +499,7 @@ body{
 
 
 .div-down-bar-about{
-	width: 100%;
+	width: 90%;
 	height: 1px;
 	float: left;
 	border-top: solid 2px #000;
@@ -510,7 +510,7 @@ body{
 
 
 .down-bar-about-items{
-	width: 10%;
+	width: 8%;
 	height: 20px;
 	margin-left: 2%; 
 	margin-top: 2%;
@@ -533,6 +533,7 @@ body{
 	width: 20%;
 	float: left;
 	margin-top: 2%;
+	margin-left: 5%;
 }
 .down-bar-about-idiom li{
 	list-style: none;
@@ -540,7 +541,7 @@ body{
 .down-bar-about-select-idiom{
 	float: left;
 	width: 18%;
-	margin-left: -7%;
+	margin-left: -5%;
 	margin-top: 1.5%;
 }
 
