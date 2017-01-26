@@ -213,25 +213,45 @@ body{
 
 .content-div-1{
 	width: 100%;
-	background-color: #fff;
+	float: left;
+	background-color: #ccc;
 	padding-left: 10%;
 	padding-right: 10%;
-	float: left;
+	padding-bottom: 3%;
+}
+.legend-modules{
+	border-bottom: solid 2px #000;
+	padding-top: 2%;
 }
 .col-xs-3{
 	float: left;
 }
 .thumbnail{
-	border: solid 0px #000;
+	background-color: #fff;
+	border: solid 1px #000;
 	border-radius: 0px;
 	padding-top: 0%;
 	padding-left: 0%;
 	padding-right: 0%;
+	padding-bottom: 5%;
 }
 .text-into-thumbnail{
 	margin-left: 5%;
 	margin-right: 5%;
 	text-align: justify;
+}
+.div-button-modules{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.button-modules-back{
+	width: 100%;
+	margin-top: 2%;
+}
+.button-modules-back:hover{
+	background-color: #2E84BF;
+	color: #fff;
+	transition-duration: 0.8s;
 }
 
 
@@ -384,6 +404,12 @@ body{
 
 
 
+
+
+
+
+
+
 .content-div-6{
 	width: 100%;
 	padding-bottom: 3%;
@@ -464,7 +490,7 @@ body{
 .div-about{
 	width: 100%;
 	float: left;
-	background-color: #fff;
+	background-color: #ccc;
 	padding-left: 5%;
 	padding-right: 5%;
 	margin-top: -5%;
@@ -533,14 +559,14 @@ body{
 	width: 20%;
 	float: left;
 	margin-top: 2%;
-	margin-left: 5%;
+	margin-left: 1%;
 }
 .down-bar-about-idiom li{
 	list-style: none;
 }
 .down-bar-about-select-idiom{
 	float: left;
-	width: 18%;
+	width: 22%;
 	margin-left: -5%;
 	margin-top: 1.5%;
 }
