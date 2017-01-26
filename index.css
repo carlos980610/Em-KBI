@@ -45,6 +45,43 @@ body{
 
 
 
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 300%;
+	animation:  change 9s infinite alternate;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes change {
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	35%{margin-left: -100%;}
+	65%{margin-left: -100%;}
+
+	80%{margin-left: -200%;}
+	100%{margin-left: -200%;}	
+}
+
+
+
+
+
 
 
 
