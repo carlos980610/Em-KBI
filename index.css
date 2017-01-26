@@ -56,7 +56,6 @@ body{
 
 
 .content-div-slider{
-	border: solid 3px #000;
 }
 .slider {
 	width: 100%;
@@ -75,7 +74,8 @@ body{
 }
 .slider img {
 	width: 100%;
-	height: 50%;
+	height: 600px;
+	
 }
 @keyframes change {
 	0%{margin-left: 0;}
@@ -117,7 +117,6 @@ body{
 	background-color: #fff;
 	float: left;
 	border-bottom: solid 5px #aaa; 
-
 }
 .title-services{
 	margin-bottom: 3%;
@@ -236,7 +235,8 @@ body{
 	width: 50%;
 	margin-left: 5%;
 	margin-right: 0%;
-	border: solid 1px #000;
+	padding-left: 0%;
+	float: left;
 }
 .form-group{
 	width: 40%;
@@ -254,16 +254,13 @@ body{
 }
 .form-group-text-area{
 	width: 85%;
-	float: lef
+	float: left;
 }
 .div-contact-information{
-	float: right;
-	border: solid 1px #000;
+	width: 30%;
+	margin: 0%;
+	float: left;
 }
-.col-xs-3 .thumbnail-contact-information{
-	width: 100%;
-}
-
 
 
 
