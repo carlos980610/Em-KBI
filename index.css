@@ -1,6 +1,9 @@
 body{
 	background-color: #fff;
 }
+.a{
+	display: none;
+}
 
 
 
@@ -225,9 +228,7 @@ body{
 	margin-right: 1%;
 	margin-bottom: 3%;
 }
-.a{
-	display: none;
-}
+
 
 
 
