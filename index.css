@@ -30,12 +30,7 @@ body{
 	width: 60px;
 	height: 50px;
 }
-.glyphicon-user{
-	font-size: 25px;
-	color: #777;
-	margin-top: 15%;
-	margin-bottom: 0%;
-}
+
 
 
 
@@ -78,20 +73,17 @@ body{
 
 
 
-
+.glyphicon-user{
+	width: 10px;
+}
 .control-button-collapse{
 	background-color: #fff;
 	margin-left: 85%;
 	width: 10%;
-
-	position: relative;
-	z-index: initial;
 }
 .control-button-collapse a{
 	color: #000;
 }
-
-
 .ul-first{
 	list-style: none;
 	text-decoration: none;
@@ -103,8 +95,6 @@ body{
 .ul-first ul:hover{
 	border: solid 1px #aaa;
 }
-
-
 .ul-first li:hover > ul{
 	background-color: transparent;
 	display: block;
@@ -131,11 +121,8 @@ body{
 
 .content-div-slider{
 	height: 613px;
+	background-color: #323232;
 }
-
-
-
-
 .div-slider-social-network{
 	width: 0%;
 	float: left;
@@ -144,49 +131,6 @@ body{
 	width: 15px;
 	height: 15px;
 }
-/*
-.slider {
-	width: 100%;
-	margin: auto;
-	overflow: hidden;
-}
-.slider ul {
-	display: flex;
-	padding: 0;
-	width: 300%;
-	animation: change 9s infinite alternate;
-}
-.slider li {
-	width: 100%;
-	list-style: none;
-}
-.slider img {
-	width: 100%;
-	height: 600px;
-	
-}
-@keyframes change {
-	0%{margin-left: 0;}
-	20%{margin-left: 0;}
-
-	35%{margin-left: -100%;}
-	65%{margin-left: -100%;}
-
-	80%{margin-left: -200%;}
-	100%{margin-left: -200%;}	
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -287,9 +231,13 @@ body{
 	color: #fff;
 	transition-duration: 0.8s;
 }
+.div-img-modules{
+	width: 100%;
+	height: 50%;
+}
 .img-modules{
 	width: 100%;
-	height: 30px;
+	height: 100%;
 }
 
 
@@ -359,7 +307,7 @@ body{
 .content-div-4{
 	width: 100%;
 	background-image: url(http://www.olmogas.com/wp-content/uploads/2014/06/contacto1.jpg);
-	background-size: 100% 80%;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	padding-right: 10%;
 	float: left;
@@ -406,10 +354,8 @@ body{
 	background-color: #323232;
 	padding-left: 5%;
 	float: left;
-}			
-.content-div-5{
 	color: #fff;
-}
+}			
 .div-title-services{
 	float: initial;
 }
@@ -450,10 +396,9 @@ body{
 
 .content-div-6{
 	width: 100%;
-	padding-bottom: 3%;
+	padding-bottom: 8%;
 	background-color: #5281A1;
 	padding-left: 5%;
-	padding-bottom: 8%;
 	float: left;
 	color: #fff;
 
