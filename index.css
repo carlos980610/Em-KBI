@@ -73,13 +73,13 @@ body{
 
 
 
-.glyphicon-user{
-	width: 10px;
-}
+
 .control-button-collapse{
-	background-color: #fff;
-	margin-left: 85%;
-	width: 10%;
+ 	background-color: #fff;
+ 	margin-left: 85%;
+ 	width: 10%;
+ 	position: relative;
+ 	z-index: 99;
 }
 .control-button-collapse a{
 	color: #000;
