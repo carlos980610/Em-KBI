@@ -85,7 +85,7 @@ body{
 	width: 10%;
 
 	position: relative;
-	z-index: initial;
+	z-index: 99;
 }
 .control-button-collapse a{
 	color: #000;
