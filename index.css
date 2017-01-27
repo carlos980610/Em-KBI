@@ -80,20 +80,11 @@ body{
 
 
 .control-button-collapse{
-<<<<<<< HEAD
  	background-color: #fff;
  	margin-left: 85%;
  	width: 10%;
  	position: relative;
  	z-index: 99;
-=======
-	background-color: #fff;
-	margin-left: 85%;
-	width: 10%;
-
-	position: relative;
-	z-index: initial;
->>>>>>> parent of 46fc203... Carga 38
 }
 .control-button-collapse a{
 	color: #000;
