@@ -30,12 +30,7 @@ body{
 	width: 60px;
 	height: 50px;
 }
-.glyphicon-user{
-	font-size: 25px;
-	color: #777;
-	margin-top: 15%;
-	margin-bottom: 0%;
-}
+
 
 
 
@@ -78,44 +73,78 @@ body{
 
 
 
+.glyphicon-user{
+	font-size: 30px;
+	color: #777;
+	margin-top: 5%;
+}
+
 
 .control-button-collapse{
- 	background-color: #fff;
- 	margin-left: 85%;
- 	width: 10%;
+ 	background-color:#fff;
+ 	margin-left: 80%;
  	position: relative;
  	z-index: 99;
+ 	font-size: 20px;
+ 	width: 10%;
 }
 .control-button-collapse a{
 	color: #000;
+	background-color: transparent;
 }
+.control-button-collapse a:hover{
+	background-color: #fff;
+}
+
+
+
+.control-button-collapse a:hover > li{
+	display: block;
+	position: relative;
+}
+
 
 
 .ul-first{
 	list-style: none;
-	text-decoration: none;
-}
-.ul-first ul{
-	display: none;
-	position: absolute;
-}
-.ul-first ul:hover{
-	border: solid 1px #aaa;
-}
-
-
-.ul-first li:hover > ul{
-	background-color: transparent;
 	display: block;
 	position: relative;
 }
+.ul-first li:hover{
+	background-color: #fff;
+	text-decoration: none;
+}
+.ul-first a:hover{
+	background-color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*
 .ul-second{
 	list-style: none;
 }
 .ul-second li{
-	padding-right: 5%;
+	background-color: #fff;
 }
-
+.ul-second li:hover{
+	background-color: #ddd;
+	text-decoration: none;
+}
+.ul-second a{
+	background-color: #ddd;
+}
+.ul-second a:hover{
+	background-color: #ddd;
+	text-decoration: none;
+}
+*/
 
 
 
