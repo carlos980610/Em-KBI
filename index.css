@@ -106,6 +106,15 @@ body{
 */
 
 
+.dropdown{
+	float: right;
+	margin-right: 50px;
+}
+.img-drop{
+	height: 30px;
+	width: 30px;
+}
+
 
 
 
