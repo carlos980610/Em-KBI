@@ -631,8 +631,31 @@ body{
 
 
 
+
+.div-list-about-photos{
+	float: left;
+	width: 25%;
+}
+.div-list-about-photos ul{
+	list-style: none;
+	text-decoration: none;
+}
+.div-list-about-photos li{
+	list-style: none;
+	text-decoration: none;
+
+}
+.div-list-about-photos a{
+	list-style: none;
+	text-decoration: none;
+}
+
+
+
+
+
 .div-down-bar-about{
-	width: 90%;
+	width: 100%;
 	height: 1px;
 	float: left;
 	border-top: solid 2px #000;
@@ -678,8 +701,6 @@ body{
 	margin-top: 1.5%;
 }
 
-
-
 .img-sponsors{
 	width: 50%;
 	height: 30%;
@@ -704,57 +725,144 @@ body{
 
 
 @media screen and (max-width: 540px){
-.content-div-0{
-	width: 100%;
-	background: #fff;
-	border-color: #fff;
-	border-style: solid;
-	border-width: 1px;
+
+
+
+.div-about{
+	height: 1500px;
+	padding-left: 1%;
+	padding-right: 1%;
 }
-.content-div-1{
-	width: 100%;
-	background: #ddd;
-	border-color: #ddd;
-	border-style: solid;
-	border-width:1px;
-}
-.content-div-a{
-	width: 90%;
-	margin-left: 5%;
+.title-about{
 	margin-bottom: 2%;
+	padding-left: 2%;
+}
+.div-list-about{
 	float: left;
-}
-.img-div-bi{
-	margin-left: 5%;
-	margin-bottom: 5%;
-	width: 90%;
-	height: 90%;
-}
-.form-comu-we{
-	margin-left: 5%;
-	width: 90%;
-	margin-bottom: 5%;
-	float: initial;
-}
-.social-network{
-	align-content: left;
-	float: left;
+	width: 50%;
 	margin-right: 10%;
-	margin-left: 5%;
-	margin-bottom: 5%;
 }
-.btn-sn{
-	width: 132%;
-	padding: 15px;
+
+.div-list-about ul{
+	list-style: none;
+	text-decoration: none;
+	color: #323232;
 }
-.img-div-pa{
+.div-list-about li{
+	list-style: none;
+	text-decoration: none;
+	font-size: 25px;
+	color: #323232;
+}
+.div-list-about a{
+	list-style: none;
+	text-decoration: none;
+	font-size: 15px;
+	color: #323232;
+}
+
+
+.div-list-about-photos{
+	float: initial;
+	width: 50%;
+	margin-bottom: 7%;
+}
+
+
+
+
+
+
+
+.div-down-bar-about{
+	width: 100%;
+	height: 1px;
+	float: left;
+	border-top: solid 2px #000;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+
+
+.down-bar-about-items{
 	width: 25%;
-	height: 10%;
-	margin-left: 5%;
-	margin-bottom: 15%;
-	margin-right: 1%;
+	height: 20px;
+	margin-left: 2%;
+	margin-right: 5%;  
+	margin-top: 2%;
+	margin-bottom: 3%; 
+	float: left;
 }
+
+
+
+.down-bar-about-select-idiom{
+	float: left;
+	width: 40%;
+	margin-left: 20%;
+	margin-top: 3%;
 }
+
+.img-sponsors{
+	width: 100%;
+	height: 90%;
+	margin: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 540px) and (max-width: 1200px){
 .content-div-0{
