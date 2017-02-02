@@ -75,11 +75,7 @@ body{
 
 
 
-.glyphicon-user{
-	font-size: 30px;
-	color: #777;
-	margin-top: 5%;
-}
+
 
 /*
 .control-button-collapse{
@@ -109,59 +105,16 @@ body{
 
 
 .dropdown{
-	float: right;
+	float: left;
 	margin-right: 50px;
 }
-.img-drop{
-	height: 30px;
-	width: 30px;
+.glyphicon-user{
+	font-size: 30px;
+	color: #777;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.ul-first{
-	list-style: none;
-	display: block;
-	position: relative;
-}
-.ul-first li:hover{
-	background-color: #fff;
-	text-decoration: none;
-}
-.ul-first a:hover{
-	background-color: #fff;
-	text-decoration: none;
+.img-dropdown{
+	width: 15px;
+	height: 15px;
 }
 
 
