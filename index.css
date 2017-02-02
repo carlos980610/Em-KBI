@@ -75,11 +75,6 @@ body{
 
 
 
-.glyphicon-user{
-	font-size: 30px;
-	color: #777;
-	margin-top: 5%;
-}
 
 /*
 .control-button-collapse{
@@ -109,12 +104,13 @@ body{
 
 
 .dropdown{
-	float: right;
+	float: left;
 	margin-right: 50px;
 }
-.img-drop{
-	height: 30px;
-	width: 30px;
+.img-drowpdown{
+	padding: 0px;
+	height: 19px;
+	width: 19px;
 }
 
 
@@ -150,46 +146,11 @@ body{
 
 
 
-.ul-first{
-	list-style: none;
-	display: block;
-	position: relative;
-}
-.ul-first li:hover{
-	background-color: #fff;
-	text-decoration: none;
-}
-.ul-first a:hover{
-	background-color: #fff;
-	text-decoration: none;
-}
 
 
 
 
 
-
-
-
-/*
-.ul-second{
-	list-style: none;
-}
-.ul-second li{
-	background-color: #fff;
-}
-.ul-second li:hover{
-	background-color: #ddd;
-	text-decoration: none;
-}
-.ul-second a{
-	background-color: #ddd;
-}
-.ul-second a:hover{
-	background-color: #ddd;
-	text-decoration: none;
-}
-*/
 
 
 
@@ -270,6 +231,7 @@ body{
 
 
 .content-div-0{
+	display: none;
 	width: 100%;
 	background-color: #fff;
 	float: left;
@@ -424,7 +386,7 @@ body{
 .content-div-4{
 	width: 100%;
 	background-image: url(http://www.olmogas.com/wp-content/uploads/2014/06/contacto1.jpg);
-	background-size: 100% 80%;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	padding-right: 10%;
 	float: left;
@@ -467,6 +429,7 @@ body{
 /*DIV SERVICIOS*/
 .content-div-5{
 	width: 100%;
+	padding-top: 5%;
 	padding-bottom: 3%;
 	background-color: #323232;
 	padding-left: 5%;
