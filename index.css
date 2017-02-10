@@ -1217,6 +1217,9 @@ body{
 .navbar-toggle{
 	display: none !important;
 }	
+.navbar-toggle{
+	display: block;
+}
 }
 
 
